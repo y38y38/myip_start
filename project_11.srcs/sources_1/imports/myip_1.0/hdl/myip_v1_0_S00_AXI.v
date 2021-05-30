@@ -321,7 +321,6 @@
 				  start <= 1'b1;
 				  start_ff <= 1'b1;
 				  slv_reg0[0] <= 1'b0;
-				  slv_reg4[0] <= 1'b1;
 			  end else begin
 				  if (start_ff == 1'b1) begin
 					  start <= 1'b0;
@@ -330,7 +329,7 @@
 				  end
 			  end
 			  slv_reg3 <= STATUS1;
-//			  slv_reg4 <= STATUS2;
+			  slv_reg4 <= STATUS2;
 		  end
 	  end
 	end    
